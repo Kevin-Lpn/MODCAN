@@ -27,10 +27,10 @@ The file should be stored at ./data/network/string_full_v12.txt.
 For example:
 ```
 protein_1	protein_2	score
-ARF5	        CYTH2	        471
-ARF5	        GGA1	        594
-ARF5	        GOSR2	        303
-ARF5	        MET	        347
+ARF5	    CYTH2	    471
+ARF5	    GGA1	    594
+ARF5	    GOSR2	    303
+ARF5	    MET	        347
 ...
 ```
 
@@ -111,7 +111,7 @@ Clinical data can be downloaded via the UCSC Xena Browser: https://xenabrowser.n
 
 For cancer type TCGA-BLCA, the clinical data can be stored at ./data/survival/TCGA-BLCA.survival.tsv.
 ```
-sample	                        OS	 _PATIENT	        OS.time
+sample	            OS	_PATIENT	    OS.time
 TCGA-E7-A8O8-01A	0	TCGA-E7-A8O8	13
 TCGA-GC-A4ZW-01A	0	TCGA-GC-A4ZW	15
 TCGA-E7-A5KE-01A	0	TCGA-E7-A5KE	17
