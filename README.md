@@ -21,20 +21,22 @@ pandas>=2.2.3
 ## Protein Protein Interaction (PPI) Network
 
 DGCCMG uses the PPI network, STRINGv12, as the underlying network. This network file can be download from https://cn.string-db.org/cgi/download.
+
 The file should be stored at ./data/network/string_full_v12.txt.
 
 For example:
 ```
 protein_1	protein_2	score
-ARF5	    CYTH2	    471
-ARF5	    GGA1	    594
-ARF5	    GOSR2	    303
-ARF5	    MET	        347
+ARF5	        CYTH2	        471
+ARF5	        GGA1	        594
+ARF5	        GOSR2	        303
+ARF5	        MET	        347
 ...
 ```
 
 ## Multi-Omics Data
 Gene expression, promoter methylation, and copy number variant (CNV) data of cancer patients sourced from TCGA were meticulously gathered via the UCSC Xena Browser: https://xenabrowser.net/datapages/.
+
 Single nucleotide variation (SNV) data were downloaded through the R package "TCGAbiolinks"
 
 For example:
@@ -94,11 +96,14 @@ TCGA-FD-A6TF-01A
 
 # Gene expression, promoter methylation, and CNV data  should be stored separately in the folders in a similar manner.
 For gene expression data:	./data/TCGA_UCSC_EXP/TCGA-BLCA/
-For promoter methylation data:	./data/TCGA_UCSC_MET/TCGA-BLCA/
-For CNV data:	./data/TCGA_UCSC_CNV/cnv_matrix/
+
+For promoter methylation data: ./data/TCGA_UCSC_MET/TCGA-BLCA/
+
+For CNV data: ./data/TCGA_UCSC_CNV/cnv_matrix/
 
 # Gene expression and promoter methylation data of normal samples
 For TCGA-BLCA, the data should be stored in the folder:	./data/TCGA_UCSC_normal/TCGA-BLCA/, including  a gene ID file, a sample ID file and two data matrices.
+
 The files are in the same format as the SNV data.
 
 ## Clinical Data
@@ -106,7 +111,7 @@ Clinical data can be downloaded via the UCSC Xena Browser: https://xenabrowser.n
 
 For cancer type TCGA-BLCA, the clinical data can be stored at ./data/survival/TCGA-BLCA.survival.tsv.
 ```
-sample	            OS	_PATIENT	    OS.time
+sample	                        OS	 _PATIENT	        OS.time
 TCGA-E7-A8O8-01A	0	TCGA-E7-A8O8	13
 TCGA-GC-A4ZW-01A	0	TCGA-GC-A4ZW	15
 TCGA-E7-A5KE-01A	0	TCGA-E7-A5KE	17
