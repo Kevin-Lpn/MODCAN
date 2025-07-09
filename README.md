@@ -1,4 +1,4 @@
-#MODCAN: driver gene identification based on multi-omics features and differential co-association networks for tumor subtypes
+# MODCAN: driver gene identification based on multi-omics features and differential co-association networks for tumor subtypes
 
 ### This is the original repository for the MODCAN paper. 
 
@@ -65,7 +65,7 @@ GDCprepare(query, save = TRUE, save.filename = paste0(save_path, cancer_type, "_
 
 ### All tab-delimited genomic data should be pre-processed and stored in the following format. For a given cancer type, all genomic data for tumor samples should share the same row and column names.
 
-## SNV Data:
+## SNV Data
 Store the SNV data in the folder:  ./data/TCGA_hg38_SNV/snv_matrix/, including a gene ID file, a sample ID file and an SNV matrix file.
 
 Example:
@@ -95,7 +95,7 @@ TCGA-FD-A6TF-01A
 ...
 ```
 
-# Store the gene expression, promoter methylation, and CNV data in separate folders. These should be formatted similarly to the SNV data.
+### Store the gene expression, promoter methylation, and CNV data in separate folders. These should be formatted similarly to the SNV data.
 
 Gene expression:	./data/TCGA_UCSC_EXP/TCGA-BLCA/
 
@@ -103,7 +103,7 @@ Promoter methylation: ./data/TCGA_UCSC_MET/TCGA-BLCA/
 
 CNV: ./data/TCGA_UCSC_CNV/cnv_matrix/
 
-# Gene expression and promoter methylation data for normal samples
+## Gene Expression and Promoter Methylation Data for Normal Samples
 
 For TCGA-BLCA, the data should be stored in the folder: ./data/TCGA_UCSC_normal/TCGA-BLCA/, including  a gene ID file, a sample ID file and two data matrices.
 
