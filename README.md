@@ -28,10 +28,10 @@ The file should be stored at ./data/network/string_full_v12.txt.
 Example:
 ```
 protein_1	protein_2	score
-ARF5	CYTH2	471
-ARF5	GGA1	594
-ARF5	GOSR2	303
-ARF5	MET	347
+ARF5	        CYTH2	        471
+ARF5	        GGA1	        594
+ARF5	        GOSR2	        303
+ARF5	        MET	        347
 ...
 ```
 
