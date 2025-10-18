@@ -116,11 +116,11 @@ For TCGA-BLCA, the clinical data should be stored in ./data/survival/TCGA-BLCA.s
 
 Example:
 ```
-sample	                OS	_PATIENT        OS.time
-TCGA-E7-A8O8-01A	0	TCGA-E7-A8O8	13
-TCGA-GC-A4ZW-01A	0	TCGA-GC-A4ZW	15
-TCGA-E7-A5KE-01A	0	TCGA-E7-A5KE	17
-TCGA-4Z-AA80-01A	1	TCGA-4Z-AA80	19
+sample	            OS	    _PATIENT         OS.time
+TCGA-E7-A8O8-01A	0	    TCGA-E7-A8O8	 13
+TCGA-GC-A4ZW-01A	0	    TCGA-GC-A4ZW	 15
+TCGA-E7-A5KE-01A	0	    TCGA-E7-A5KE	 17
+TCGA-4Z-AA80-01A	1	    TCGA-4Z-AA80	 19
 ...
 ```
 
@@ -159,4 +159,5 @@ parameter	full name	help
 -dr	--driver	cgc
 -xr	--xr	xiao rong
 ```
+
 
