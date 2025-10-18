@@ -139,3 +139,23 @@ Example:
 2. cd ./src/
 	python train_Mgcn.py -e 1000 -lr 0.001 -hd [64, 128] -lm 2 -wd 5e-4 -do 0.5 -wt 2 -ns 0.2 -d '../h5_file/TCGA-BLCA_string_full_v12_0.7.h5' -cv 10 -dr 'cgc'
 ```
+
+## Parameters
+
+The following parameters can be specified when running train_Mgcn.py:
+
+```
+parameter	full name	help
+-e	--epochs	number of epochs
+-lr	--learning_rate	Learning Rate
+-hd	--hidden_dims	Hidden Dimensions (number of filters per layer)
+-lm	--loss_mul	Number of times, false negatives are weighted higher than false positives
+-wd	--weight_decay	Weight Decay
+-do	--dropout	Dropout Percentage
+-wt	--weight_type	Weight type of Hypergraph
+-ns	--network_split	[0, 1)
+-d	--data	Path to HDF5 container with data
+-cv	--cv_runs	Number of cross validation runs
+-dr	--driver	cgc
+-xr	--xr	xiao rong
+```
