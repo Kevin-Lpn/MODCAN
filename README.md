@@ -145,19 +145,20 @@ Example:
 The following parameters can be specified when running train_Mgcn.py:
 
 ```
-parameter	full name	help
--e	--epochs	number of epochs
--lr	--learning_rate	Learning Rate
--hd	--hidden_dims	Hidden Dimensions (number of filters per layer)
--lm	--loss_mul	Number of times, false negatives are weighted higher than false positives
--wd	--weight_decay	Weight Decay
--do	--dropout	Dropout Percentage
--wt	--weight_type	Weight type of Hypergraph
--ns	--network_split	[0, 1)
--d	--data	Path to HDF5 container with data
--cv	--cv_runs	Number of cross validation runs
--dr	--driver	cgc
--xr	--xr	xiao rong
+parameter	  full name	          type	           help
+-e	          --epochs	          int	           number of epochs
+-lr	          --learning_rate	  float	           learning rate
+-hd	          --hidden_dims	      list of int	   hidden dimensions (number of filters per layer)
+-lm	          --loss_mul	      float	           number of times, false negatives are weighted higher than false positives
+-wd	          --weight_decay	  float	           weight decay
+-do	          --dropout	          float	           dropout percentage
+-wt	          --weight_type	      int	           weight type of hypergraph
+-ns	          --network_split	  float	           [0, 1)
+-d	          --data	          str	           path to HDF5 container with data
+-cv	          --cv_runs	          int	           number of cross validation runs
+-dr	          --driver	          str	           cgc
+-xr	          --xr	              str	           xiao rong
 ```
+
 
 
