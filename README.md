@@ -145,7 +145,7 @@ Example:
 The following parameters can be specified when running train_Mgcn.py:
 
 ```
-parameter	  meaning	          type	           function
+parameter	  meaning	          type	           help
 -e	          --epochs	          int	           number of epochs
 -lr	          --learning_rate	  float	           learning rate
 -hd	          --hidden_dims	      list of int	   hidden dimensions (number of filters per layer)
@@ -159,6 +159,7 @@ parameter	  meaning	          type	           function
 -dr	          --driver	          str	           cgc
 -xr	          --xr	              str	           xiao rong
 ```
+
 
 
 
